@@ -56,20 +56,57 @@ toppingtotal = " "
 #    else:
 #        toppingtotal = topping , "," , toppingtotal
 
-hi = True
+#hi = True
+#a = True
+#b# = True
 
-while hi == True:
-    q1 = input("what is the capital of singapore?")
-    if q1 == "singapore":
-        q2 = input("what is singapore's most iconic seafood?")
-        if q2 == "chili crab":
-            q3 = input("what is 1 + 1?")   
-            if q3 == "2":
-                 break
-            else :
-                hi = True
-        else :
-            hi = True
-    else :
-        hi = True
+#while hi == True:
+#    q1 = input("what is the capital of singapore? ")
+#    if q1 == "singapore":
+#        hi = False
+#    else :
+#        hi = True
+
+#while a == True:
+ #   q2 = input("what is singapore's most iconic seafood? ")
+ #   if q2 == "chili crab":
+ #       a = False
+ #   else :
+  #      a = True
         
+#while b == True:
+#    q3 = input("what is 1 + 1? ")   
+##        b = False
+#    else :
+#        b = True
+
+#a = True
+
+#while a == True:
+#    r = input("i have 2 hands and a face butt no legs or body what am i? ")
+#    if r == "clock":
+#        break
+#    else:
+#        a = True
+
+#t = True
+#while t == True:
+#    q = int(input("how long do you want to set timer?(secs)  "))
+#    print("UR TIMER IS UP GET OUT")
+#    break
+
+#savings = 0
+#while savings < 100:
+ #   days = int(input("how much r u gonna save? "))
+#    savings = savings + days
+#else:
+#    print(" yay u got $100 ")
+
+#import time
+#print(time.localtime())
+
+y = 0
+l = 3
+
+while y < 15:
+    a1 = randint(2,20)
