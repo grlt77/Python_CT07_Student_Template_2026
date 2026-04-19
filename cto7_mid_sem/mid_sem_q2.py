@@ -13,8 +13,10 @@ while True:
         break
 
 
-for i in orlist:
-    print((int(i) + 1) , ".", order)
+
+for a in orlist:
+    for i in range(len(orlist)):
+        print(i , ".", a)
 
 # num = num + 1
 # hi = num, ". " ,order
