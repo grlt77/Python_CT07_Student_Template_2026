@@ -58,18 +58,30 @@ def create_greenturtle():
     t = turtle.Turtle()
     t.shape("turtle")
     t.color("green")
-    t.penup()
+    # t.penup()
     return t
 
 def move_turtle(t,dx,dy):
     t.setx(t.xcor() + dx)
     t.sety(t.ycor() + dy)
 
+def check_x(t,screenwidth):
+    if t.xcor() > (screenwidth/2) or t.xcor() < (-screenwidth/2):
+        return True
 
+def check_y(t,screenheight):
+    if t.ycor() > (screenheight/2) or t.ycor() < (-screenheight/2):
+        return True
+    
 window = setup_screen(screenwidth,screenheight)
 t = create_greenturtle()
 
 while True:
     move_turtle(t,dx,dy)
+    if check_x(t,screenwidth):
+        dx *= -1
+    if check_y(t,screenheight):
+        dy *= -1
 
 window.mainloop()
+
